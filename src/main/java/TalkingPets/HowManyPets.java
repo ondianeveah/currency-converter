@@ -19,10 +19,10 @@ public class HowManyPets {
             System.out.println("How many pets do you have?");
             numberOfPets = sc.nextInt();
             for (int x = 0; x < numberOfPets; x++){
+                System.out.println("What are the kinds of pets you have?");
+                kindsOfPets = sc.next().toLowerCase();
                 System.out.println("What are their names?");
                 names = sc.next();
-                System.out.println("What are the kinds of pets you have?");
-            kindsOfPets = sc.next().toLowerCase();
             switch(kindsOfPets){
                 case "dog":
                     dog.setName(names);
