@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61106b9f-4404-4d63-bbba-492df85998e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmployeeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HumanBeing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HumanBeing/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MonkeyTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewCurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shapes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animal/CatTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animal/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Hamster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/HowManyPets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/PetTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/currency/CurrencyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/currency/CurrencyConverter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +53,16 @@
       <recent name="currency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="EmployeeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeeTester" />
+  <component name="RunManager" selected="Application.PetTester">
+    <configuration name="HowManyPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TalkingPets.HowManyPets" />
       <module name="Converter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TalkingPets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,9 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonkeyTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MonkeyTester" />
+    <configuration name="PetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TalkingPets.PetTester" />
       <module name="Converter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TalkingPets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PetTester" />
+        <item itemvalue="Application.HowManyPets" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentTester" />
-        <item itemvalue="Application.EmployeeTester" />
-        <item itemvalue="Application.MonkeyTester" />
       </list>
     </recent_temporary>
   </component>
@@ -139,10 +143,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585195841517">
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585204436541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585195841517" />
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585204436541" />
     <state x="371" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585148493614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -151,22 +155,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1585194997708" />
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1585202488692">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1585233720286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585202488692" />
-    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1585202488692">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585233720286" />
+    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1585233720286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585202488692" />
-    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1585202488692">
+    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585233720286" />
+    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1585233720286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585202488692" />
-    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1585202488692">
+    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585233720286" />
+    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1585233720286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585202488692" />
+    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585233720286" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1585083255762">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
