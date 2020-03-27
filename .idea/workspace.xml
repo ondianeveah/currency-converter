@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61106b9f-4404-4d63-bbba-492df85998e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/HowManyPets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/PetTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratingThroughArray/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratingThroughArray/PersonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratingThroughArray/PersonHandlerTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HumanBeing/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HumanBeing/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TalkingPets/HowManyPets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TalkingPets/HowManyPets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <recent name="currency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PetTester">
+  <component name="RunManager" selected="Application.PersonHandlerTester">
     <configuration name="HowManyPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TalkingPets.HowManyPets" />
       <module name="Converter" />
@@ -93,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonHandlerTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratingThroughArray.PersonHandlerTester" />
+      <module name="Converter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IteratingThroughArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TalkingPets.PetTester" />
       <module name="Converter" />
@@ -106,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.StudentTester" />
-      <module name="Converter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HumanBeing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonHandlerTester" />
         <item itemvalue="Application.PetTester" />
         <item itemvalue="Application.HowManyPets" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StudentTester" />
       </list>
     </recent_temporary>
   </component>
@@ -143,10 +142,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585204436541">
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585239174930">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585204436541" />
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585239174930" />
     <state x="371" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585148493614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -155,22 +154,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1585194997708" />
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1585234203258">
+    <state width="1237" height="307" key="GridCell.Tab.0.bottom" timestamp="1585331267272">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585234203258" />
-    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1585234203258">
+    <state width="1237" height="307" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585331267271" />
+    <state width="1237" height="307" key="GridCell.Tab.0.center" timestamp="1585331267271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585234203258" />
-    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1585234203258">
+    <state width="1237" height="307" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585331267271" />
+    <state width="1237" height="307" key="GridCell.Tab.0.left" timestamp="1585331267271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585234203258" />
-    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1585234203258">
+    <state width="1237" height="307" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585331267271" />
+    <state width="1237" height="307" key="GridCell.Tab.0.right" timestamp="1585331267271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585234203258" />
+    <state width="1237" height="307" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585331267271" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1585083255762">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

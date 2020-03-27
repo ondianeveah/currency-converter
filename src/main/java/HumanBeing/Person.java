@@ -8,7 +8,6 @@ public class Person {
     private double salary;
 
     public Person(){
-
     }
     //constructor
 
