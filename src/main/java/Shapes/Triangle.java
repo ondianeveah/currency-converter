@@ -1,52 +1,29 @@
 package Shapes;
 
-public class Triangle {
-    private int height;
-    private int base;
+public class Triangle extends Shape {
+    private Boolean hasThreeSides;
+    private Integer height;
+    private Integer base;
 
 
-    //empty constructor
-    public Triangle(){
-    }
-    //Constructor
-    public Triangle(int height, int base){
+    public Triangle(int sides, Boolean hasThreeSides, Integer height, Integer base) {
+        super(sides);
+        this.hasThreeSides = hasThreeSides;
         this.height = height;
         this.base = base;
     }
-// method
-    public int calculateArea(){
-        return (height * base) / 2;
-    }
-// overloaded method
-    public int calculateArea(int x){
-        return x * 10;
+
+    @Override
+    public double calculateArea() {
+        return height * base / 2;
     }
 
-    public String thisIsArea(String name) {
-        return name;
-    }
-    public String newBase(String name){
-        return name;
-    }
-    public String newArea(String name){
-        return name;
+    public String talk() {
+        return "My name is triangle";
     }
 
-    public int getHeight() {
-        return height;
+    public String getArea() {
+        return "Area is: " + calculateArea();
     }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public int getBase() {
-        return base;
-    }
-
-    public void setBase(int base) {
-        this.base = base;
-    }
-
-    }
+}
 
