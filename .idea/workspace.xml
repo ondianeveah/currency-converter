@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61106b9f-4404-4d63-bbba-492df85998e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/StudentTesteer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/AustralianDollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Chinese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/ConvertibleCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/CurrencyTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/CurrencyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Euro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Franc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Pound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Ringgit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Rupee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/UniversalCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Yen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/canDollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/singDollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency/usDollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/StudentTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewCurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency/NewCurrencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NewCurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/StudentTesteer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/StudentTesteer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/StudentTesteer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,7 @@
       <recent name="currency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTesteer">
+  <component name="RunManager" selected="Application.StudentTester">
     <configuration name="CurrencyTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="currency.CurrencyTester" />
       <module name="Converter" />
@@ -110,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTesteer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.StudentTesteer" />
+    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.StudentTester" />
       <module name="Converter" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentTesteer" />
+        <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.CurrencyTester" />
         <item itemvalue="Application.DoctorTester" />
         <item itemvalue="Application.SuperHeroTester" />
@@ -160,10 +146,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585591221048">
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585604005053">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585591221048" />
+    <state x="411" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585604005053" />
     <state x="371" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585148493614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -176,22 +162,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1585194997708" />
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1585593014356">
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1585607335509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585593014356" />
-    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1585593014356">
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585607335509" />
+    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1585607335509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585593014356" />
-    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1585593014355">
+    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585607335509" />
+    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1585607335509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585593014355" />
-    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1585593014356">
+    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585607335509" />
+    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1585607335509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585593014356" />
+    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585607335509" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585571070087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -216,10 +202,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="437" y="177" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585188490288" />
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585584568103">
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585595363585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1585584568103" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1585595363585" />
     <state x="348" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585590194476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

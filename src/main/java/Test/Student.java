@@ -1,25 +1,19 @@
 package Test;
 
+import java.util.Arrays;
+
 public class Student {
     private String firstName;
     private String lastName;
-    private String arrayOfScores;
+    private Double[] scores;
 
-    public Student(String firstName, String lastName, String arrayOfScores) {
-        this.firstName = firstName;
+    public Student(String firstName, String lastName, Double[] scores){
+        this.firstName= firstName;
         this.lastName = lastName;
-        this.arrayOfScores = arrayOfScores;
+        this.scores = scores;
     }
 
-    public double returnArrayOfScores(double[] arrayOfScores) {
-        int scores = 0;
-        for (int x = 0; x < arrayOfScores.length; x++) {
-            scores += arrayOfScores[x];
-        }
-        return scores;
-    }
-
-    public double returnTotalScores(double[] totalScores) {
+    public double totalScores(Double[] totalScores) {
         int sum = 0;
         for (int x = 0; x < totalScores.length; x++) {
             sum += totalScores[x];
@@ -27,19 +21,17 @@ public class Student {
         return sum;
     }
 
-    public String calculateAverage(double[] totalScores){
-        return "Ondia's average score is: " + returnTotalScores(totalScores) / 3;
+    public double calculateAverage(Double[] totalScores){
+        return totalScores(totalScores) / totalScores.length;
     }
 
-    public String getFirstName() {
-        return "First name is: " + firstName;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", scores=" + Arrays.toString(scores) +
+                '}';
     }
 
-    public String getLastName() {
-        return "Last name is: " + lastName;
-    }
-
-    public String getArrayOfScores() {
-        return "Scores: " + arrayOfScores;
-    }
 }
